@@ -1,2 +1,0 @@
-# christopher
-my cv

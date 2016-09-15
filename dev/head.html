@@ -1,0 +1,34 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Christopher Stock - C.V.</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- build:css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../../bower_components/materialize/bin/materialize.css">
+    <link rel="stylesheet" href="../../bower_components/fullpage.js/dist/jquery.fullpage.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+    <!-- build:js -->
+    <!-- inject:js -->
+    <script src="../../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../../bower_components/fullpage.js/dist/jquery.fullpage.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                navigation: true,
+                slidesNavigation: true,
+                showActiveTooltip: true,
+                touchSensitivity: 1,
+                css3: true,
+                controlArrows: false,
+                anchors: ['Home', 'aboutMe', 'Work', 'Education', 'Skills', 'Footer'],
+                menu: '#menu'
+            });
+        });
+    </script>
+</head>

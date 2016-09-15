@@ -1,0 +1,72 @@
+h1 {
+    font-size: 2.92rem !important;
+}
+
+h3 {
+        font-size: 1.92rem !important;
+}
+
+h4 {
+        font-size: 1.52rem !important;
+}
+
+#menu {
+    position: fixed;
+    right: 10px;
+    z-index: 70;
+    margin: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 5px;
+}
+
+#menu li a {
+    font-size: 1rem;
+}
+
+#menu li:hover a,
+#menu li:focus a {
+    color: #616161 !important;
+}
+
+#menu li:active a {
+    color: inherit;
+}
+
+#menu li.active a {
+    color: #212121 !important;
+}
+
+.section {
+    padding: 0 !important;
+}
+
+.section-container {
+    margin: 0 50px;
+}
+
+@media only screen and (min-width: 736px) { 
+    h1 {
+        font-size: 6.2rem !important;
+    }
+    h3 {
+        font-size: 2.92rem !important;
+    }
+    h4 {
+        font-size: 2.28rem !important;
+    }
+    #menu {
+        right: 50px;
+    }
+    #menu li {
+        margin: 10px;
+    }
+    #menu li a {
+        font-size: 1.5rem;
+    }
+    .section-container {
+        margin: 0 150px;
+    }
+}

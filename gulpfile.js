@@ -107,4 +107,9 @@ gulp.task('serve', function() {
     gulp.watch('./dev/*.html', ['update']);
 });
 
+gulp.task('deploy', () => {
+    gulp.src('./_site/**/*')
+        .pipe(ghpages())
+})
+
 gulp.task('default', ['dependencies', 'update', 'css', 'js', 'jekyll', 'serve']);
